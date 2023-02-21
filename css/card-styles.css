@@ -1,17 +1,19 @@
 .card {
     width: 80%;
-    margin-top: 20px;
-    /* height: 250px; */
-    /* background-color: aqua; */
     border: 2px solid var(---primary-color);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
 }
 
+.card img {
+    text-align: right;
+}
 .bookmark-icon {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    right: 45px;
-    /* top: 10px; */
+    position: relative;
+    height: 50px;
+    right: -40%;
+    top: -25px;
 }
 
 .card h2 {
@@ -20,12 +22,14 @@
     text-align: center;
 }
 .card button {
+    width: 130px;
     background-color: var(---primary-color);
     padding: 10px;
     border: none;
     border-radius: 5px;
     text-align: center;
     color: aliceblue;
+    margin: 10px;
 }
 
 .card .hashtag {
