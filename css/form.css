@@ -1,0 +1,38 @@
+form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 3px;
+}
+
+form button {
+    width: 200px;
+    border-radius: 12px;
+    padding: 3px;
+    margin: 10px;
+    align-self: center;
+    font-size: 1.3rem;
+}
+
+form label {
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-size: 1.1rem;
+    padding: 5px;
+}
+
+.new-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}

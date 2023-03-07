@@ -32,6 +32,10 @@
     margin: 10px;
 }
 
+.card .hidden {
+    display: none;
+}
+
 .card .hashtag {
     display: flex;
     gap: 5px;

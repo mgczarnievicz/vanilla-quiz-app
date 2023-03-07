@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form</title>
+        <link rel="stylesheet" href="./css/general.css" />
+        <link rel="stylesheet" href="./css/form.css" />
+        <link rel="stylesheet" href="./css/card-styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Quiz App</h1>
+        </header>
+        <main>
+            <form class="add-card">
+                <label for="question"> Your question:</label>
+                <textarea
+                    name="question"
+                    id=""
+                    cols="30"
+                    rows="10"
+                    data-ja="new-question"
+                ></textarea>
+
+                <label for="answer">Your answer:</label>
+                <textarea
+                    name="answer"
+                    id=""
+                    cols="30"
+                    rows="10"
+                    data-ja="new-answer"
+                ></textarea>
+
+                <label for="tag">Tag:</label>
+                <input type="text" name="tags" id="" data-js="new-tag" />
+
+                <button type="submit">Submit</button>
+            </form>
+            <section class="new-cards" js-data="new-cards"></section>
+        </main>
+
+        <nav>
+            <a href="home.html" rel="noopener noreferrer"
+                ><img src="./assets/home.png" alt="home"
+            /></a>
+            <a href="bookmark.html" rel="noopener noreferrer"
+                ><img src="./assets/bookmark_transparent.png" alt="bookmark"
+            /></a>
+
+            <img src="./assets/add_filled.png" alt="add" />
+            <a href="profile.html" rel="noopener noreferrer"
+                ><img src="./assets/profile.png" alt=""
+            /></a>
+        </nav>
+    </body>
+    <script src="./js/form.js"></script>
+</html>
