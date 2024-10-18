@@ -36,3 +36,7 @@ form textarea {
     align-items: center;
     gap: 20px;
 }
+
+form textarea:focus {
+    outline: 1px solid yellow;
+}

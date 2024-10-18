@@ -1,7 +1,7 @@
+import { handleBookmark, handleButtonClick } from './utilities.js';
+
 const cardFrom = document.querySelector('form');
 const newCardContainer = document.querySelector('[js-data="new-cards"]');
-console.log('CardFrom: ', cardFrom);
-console.log('newCardContainer: ', newCardContainer);
 
 cardFrom.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -22,10 +22,10 @@ function createQuizCard(question, answer, tags) {
     const tagsEl = createTags(tags);
     questionCard.append(imgEl, headerEl, buttonEl, answerEl, tagsEl);
 
-    // buttonEl.addEventListener('click', () => {
-    //     handleButtonClick(buttonEl, answerEl);
-    // });
-    // imgEl.addEventListener('click', handleIconClick);
+    buttonEl.addEventListener('click', (event) => {
+        handleButtonClick(event, answerEl);
+    });
+    imgEl.addEventListener('click', handleBookmark);
     console.log('Question Card: ', questionCard);
     newCardContainer.appendChild(questionCard);
 }
