@@ -9,6 +9,7 @@
 .card img {
     text-align: right;
 }
+
 .bookmark-icon {
     position: relative;
     height: 50px;
@@ -21,6 +22,7 @@
     margin-top: 30px;
     text-align: center;
 }
+
 .card button {
     width: 130px;
     background-color: var(---primary-color);
@@ -30,6 +32,10 @@
     text-align: center;
     color: aliceblue;
     margin: 10px;
+}
+
+.--hidden {
+    visibility: hidden;
 }
 
 .card .hashtag {
