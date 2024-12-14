@@ -9,6 +9,7 @@
 .card img {
     text-align: right;
 }
+
 .bookmark-icon {
     position: relative;
     height: 50px;
@@ -21,6 +22,7 @@
     margin-top: 30px;
     text-align: center;
 }
+
 .card button {
     width: 130px;
     background-color: var(---primary-color);
@@ -32,17 +34,19 @@
     margin: 10px;
 }
 
-.card .hidden {
-    display: none;
+
+.--hidden {
+    visibility: hidden;
+
 }
 
-.card .hashtag {
+.card .card__hashtag {
     display: flex;
     gap: 5px;
     margin: 10px;
 }
 
-.card .hashtag h5 {
+.card .card__hashtag h5 {
     background-color: rgb(195, 189, 189);
     padding: 5px;
     border-radius: 3px;

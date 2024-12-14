@@ -1,49 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Bookmark</title>
-        <link rel="stylesheet" href="./css/general.css" />
-        <link rel="stylesheet" href="./css/card-styles.css" />
-    </head>
-    <body>
-        <header>
-            <h1>Quiz App</h1>
-        </header>
-        <main>
-            <section class="card">
-                <img
-                    class="bookmark-icon"
-                    src="./assets/bookmark_filled.png"
-                    alt=""
-                />
-                <h2>What property make a component expand in flexbox?</h2>
-                <button>Show Answer</button>
-                <h3 class="answer hidden">flex-direction</h3>
-                <section class="hashtag">
-                    <h5>#html</h5>
-                    <h5>#flexbox</h5>
-                    <h5>#css</h5>
-                </section>
-            </section>
-        </main>
-        <nav>
-            <a href="home.html" rel="noopener noreferrer"
-                ><img src="./assets/home.png" alt="home"
-            /></a>
-            <img
-                class="nav-selected"
-                src="./assets/bookmark_filled.png"
-                alt="bookmark selected"
-            />
-            <a href="form.html" rel="noopener noreferrer"
-                ><img src="./assets/add.png" alt="add"
-            /></a>
-            <a href="profile.html" rel="noopener noreferrer"
-                ><img src="./assets/profile.png" alt=""
-            /></a>
-        </nav>
-    </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bookmark</title>
+		<link rel="stylesheet" href="./css/general.css" />
+		<link rel="stylesheet" href="./css/card-styles.css" />
+		<script type="module" src="./js/home.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Quiz App</h1>
+		</header>
+		<main>
+			<section class="card">
+				<img
+					class="bookmark-icon"
+					src="./assets/bookmark_filled.png"
+					alt=""
+				/>
+				<h2>What does CSS stand for?</h2>
+				<button>Show Answer</button>
+				<h2 class="card__answer --hidden">
+					<code>Cascading Style Sheets</code>
+				</h2>
+				<section class="card__hashtag">
+					<h5>#css</h5>
+					<h5>#webdesign</h5>
+				</section>
+			</section>
+
+			<section class="card">
+				<img
+					class="bookmark-icon"
+					src="./assets/bookmark_filled.png"
+					alt=""
+				/>
+				<h2>
+					Which CSS property is used to change the text color of an
+					element?
+				</h2>
+				<button>Show Answer</button>
+				<h2 class="card__answer --hidden"><code>color</code></h2>
+				<section class="card__hashtag">
+					<h5>#css</h5>
+					<h5>#styling</h5>
+				</section>
+			</section>
+
+			<section class="card">
+				<img
+					class="bookmark-icon"
+					src="./assets/bookmark_filled.png"
+					alt=""
+				/>
+				<h2>How can you center an element horizontally in CSS?</h2>
+				<button>Show Answer</button>
+				<h2 class="card__answer --hidden">
+					<code>By setting its margin property to auto.</code>
+				</h2>
+				<section class="card__hashtag">
+					<h5>#css</h5>
+					<h5>#centering</h5>
+				</section>
+			</section>
+
+			<section class="card">
+				<img
+					class="bookmark-icon"
+					src="./assets/bookmark_filled.png"
+					alt=""
+				/>
+				<h2>
+					In CSS, what property is used to control the spacing between
+					lines of text within an element?
+				</h2>
+				<button>Show Answer</button>
+				<h2 class="card__answer --hidden"><code>line-height</code></h2>
+				<section class="card__hashtag">
+					<h5>#css</h5>
+					<h5>#styling</h5>
+				</section>
+			</section>
+		</main>
+		<nav>
+			<a href="home.html" rel="noopener noreferrer"
+				><img src="./assets/home.png" alt="home"
+			/></a>
+			<img
+				class="nav-selected"
+				src="./assets/bookmark_filled.png"
+				alt="bookmark selected"
+			/>
+			<a href="form.html" rel="noopener noreferrer"
+				><img src="./assets/add.png" alt="add"
+			/></a>
+			<a href="profile.html" rel="noopener noreferrer"
+				><img src="./assets/profile.png" alt=""
+			/></a>
+		</nav>
+	</body>
 </html>

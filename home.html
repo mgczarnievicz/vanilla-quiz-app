@@ -1,73 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Home</title>
-        <link rel="stylesheet" href="./css/general.css" />
-        <link rel="stylesheet" href="./css/card-styles.css" />
-    </head>
-    <body>
-        <header>
-            <h1>Quiz App</h1>
-        </header>
-        <main>
-            <section class="card">
-                <img class="bookmark-icon" src="./assets/bookmark.png" alt="" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home</title>
+		<link rel="stylesheet" href="./css/general.css" />
+		<link rel="stylesheet" href="./css/card-styles.css" />
+		<script type="module" src="./js/home.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Quiz App</h1>
+		</header>
+		<main>
+			<section class="card">
+				<img class="bookmark-icon" src="./assets/bookmark.png" alt="" />
+				<h2>
+					Which HTML tag is used to link an external CSS file to an
+					HTML document?
+				</h2>
+				<button>Show Answer</button>
 
-                <h2>What property flips the axes in flexbox?</h2>
-                <button>Show Answer</button>
-                <h3 class="answer hidden">flex-direction</h3>
-                <section class="hashtag">
-                    <h5>#html</h5>
-                    <h5>#flexbox</h5>
-                    <h5>#css</h5>
-                </section>
-            </section>
-            <section class="card">
-                <img
-                    class="bookmark-icon"
-                    src="./assets/bookmark_filled.png"
-                    alt=""
-                />
-                <h2>What property make a component expand in flexbox?</h2>
-                <button>Show Answer</button>
-                <h3 class="answer hidden">flex-direction</h3>
-                <section class="hashtag">
-                    <h5>#html</h5>
-                    <h5>#flexbox</h5>
-                    <h5>#css</h5>
-                </section>
-            </section>
-            <section class="card">
-                <img class="bookmark-icon" src="./assets/bookmark.png" alt="" />
-                <h2>What property make a component expand in flexbox?</h2>
-                <button>Show Answer</button>
-                <h3 class="answer hidden">flex-direction</h3>
-                <section class="hashtag">
-                    <h5>#html</h5>
-                    <h5>#flexbox</h5>
-                    <h5>#css</h5>
-                </section>
-            </section>
-        </main>
-        <nav>
-            <img
-                class="nav-selected"
-                src="./assets/home_filled.png"
-                alt="home selected"
-            />
-            <a href="bookmark.html" rel="noopener noreferrer"
-                ><img src="./assets/bookmark_transparent.png" alt="bookmark"
-            /></a>
-            <a href="form.html" rel="noopener noreferrer"
-                ><img src="./assets/add.png" alt="add"
-            /></a>
-            <a href="profile.html" rel="noopener noreferrer"
-                ><img src="./assets/profile.png" alt=""
-            /></a>
-        </nav>
-        <script src="./js/home.js" type="module"></script>
-    </body>
+				<h2 class="card__answer --hidden"><code>&lt;link&gt;</code></h2>
+
+				<section class="card__hashtag">
+					<h5>#html</h5>
+					<h5>#css</h5>
+				</section>
+			</section>
+			<section class="card">
+				<img class="bookmark-icon" src="./assets/bookmark.png" alt="" />
+				<h2>What property make a component expand in flexbox?</h2>
+				<button>Show Answer</button>
+
+				<h2 class="card__answer --hidden">flex-direction</h2>
+				<section class="card__hashtag">
+					<h5>#html</h5>
+					<h5>#flexbox</h5>
+					<h5>#css</h5>
+				</section>
+			</section>
+			<section class="card">
+				<img
+					class="bookmark-icon"
+					src="./assets/bookmark_filled.png"
+					alt=""
+				/>
+				<h2>What does CSS stand for?</h2>
+				<button>Show Answer</button>
+				<h2 class="card__answer --hidden">
+					<code>Cascading Style Sheets</code>
+				</h2>
+				<section class="card__hashtag">
+					<h5>#css</h5>
+					<h5>#webdesign</h5>
+				</section>
+			</section>
+
+			<section class="card">
+				<img class="bookmark-icon" src="./assets/bookmark.png" alt="" />
+				<h2>What is the purpose of the HTML &lt;div&gt; element?</h2>
+				<button>Show Answer</button>
+				<h2 class="card__answer --hidden">
+					<code
+						>It is a container element used to group and style
+						content together.</code
+					>
+				</h2>
+				<section class="card__hashtag">
+					<h5>#html</h5>
+					<h5>#structure</h5>
+				</section>
+			</section>
+
+			<section class="card">
+				<img
+					class="bookmark-icon"
+					src="./assets/bookmark_filled.png"
+					alt=""
+				/>
+				<h2>
+					Which CSS property is used to change the text color of an
+					element?
+				</h2>
+				<button>Show Answer</button>
+				<h2 class="card__answer --hidden"><code>color</code></h2>
+				<section class="card__hashtag">
+					<h5>#css</h5>
+					<h5>#styling</h5>
+				</section>
+			</section>
+
+			<section class="card">
+				<img class="bookmark-icon" src="./assets/bookmark.png" alt="" />
+				<h2>
+					What is the default display property for most HTML elements?
+				</h2>
+				<button>Show Answer</button>
+				<h2 class="card__answer --hidden"><code>block</code></h2>
+				<section class="card__hashtag">
+					<h5>#html</h5>
+					<h5>#css</h5>
+				</section>
+			</section>
+
+			<section class="card">
+				<img
+					class="bookmark-icon"
+					src="./assets/bookmark_filled.png"
+					alt=""
+				/>
+				<h2>How can you center an element horizontally in CSS?</h2>
+				<button>Show Answer</button>
+				<h2 class="card__answer --hidden">
+					<code>By setting its margin property to auto.</code>
+				</h2>
+				<section class="card__hashtag">
+					<h5>#css</h5>
+					<h5>#centering</h5>
+				</section>
+			</section>
+
+			<section class="card">
+				<img class="bookmark-icon" src="./assets/bookmark.png" alt="" />
+				<h2>
+					What is the CSS pseudo-class used to select the first child
+					of an element?
+				</h2>
+				<button>Show Answer</button>
+				<h2 class="card__answer --hidden"><code>:first-child</code></h2>
+				<section class="card__hashtag">
+					<h5>#css</h5>
+					<h5>#selectors</h5>
+				</section>
+			</section>
+
+			<section class="card">
+				<img class="bookmark-icon" src="./assets/bookmark.png" alt="" />
+				<h2>
+					Which HTML tag is used to create an ordered (numbered) list?
+				</h2>
+				<button>Show Answer</button>
+				<h2 class="card__answer --hidden"><code>&lt;ol&gt;</code></h2>
+				<section class="card__hashtag">
+					<h5>#html</h5>
+					<h5>#lists</h5>
+				</section>
+			</section>
+
+			<section class="card">
+				<img
+					class="bookmark-icon"
+					src="./assets/bookmark_filled.png"
+					alt=""
+				/>
+				<h2>
+					In CSS, what property is used to control the spacing between
+					lines of text within an element?
+				</h2>
+				<button>Show Answer</button>
+				<h2 class="card__answer --hidden"><code>line-height</code></h2>
+				<section class="card__hashtag">
+					<h5>#css</h5>
+					<h5>#styling</h5>
+				</section>
+			</section>
+
+			<section class="card">
+				<img class="bookmark-icon" src="./assets/bookmark.png" alt="" />
+				<h2>What does the term "responsive web design" refer to?</h2>
+				<button>Show Answer</button>
+				<h2 class="card__answer --hidden">
+					<code
+						>It refers to designing web pages that adapt and display
+						well on various screen sizes and devices.</code
+					>
+				</h2>
+				<section class="card__hashtag">
+					<h5>#css</h5>
+					<h5>#responsivedesign</h5>
+				</section>
+			</section>
+		</main>
+		<nav>
+			<img
+				class="nav-selected"
+				src="./assets/home_filled.png"
+				alt="home selected"
+			/>
+			<a href="bookmark.html" rel="noopener noreferrer"
+				><img src="./assets/bookmark_transparent.png" alt="bookmark"
+			/></a>
+			<a href="form.html" rel="noopener noreferrer"
+				><img src="./assets/add.png" alt="add"
+			/></a>
+			<a href="profile.html" rel="noopener noreferrer"
+				><img src="./assets/profile.png" alt="Profile"
+			/></a>
+		</nav>
+	</body>
 </html>
