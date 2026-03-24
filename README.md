@@ -1,4 +1,4 @@
-# CSS Quiz App
+# Vanilla Quiz App
 
 ## Overview
 
