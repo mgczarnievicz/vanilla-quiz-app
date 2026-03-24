@@ -56,18 +56,18 @@ This project helps students understand:
 
 ## Preview
 
-### Home Page
+### Part 1
 
-![Home page](./preview/)
+![Home page](./preview/quiz-app-part-1.gif)
 
-### Bookmark Page
+### Part 2: Home Page
 
-![Bookmark page](./preview/)
+![Home Page](./preview/quiz-app-p2-home.gif)
 
-### Profile Page
+### Part 2: Bookmark Page
 
-![Profile Page](./preview/)
+![Bookmark page](./preview/quiz-app-p2-bookmark.gif)
 
-### Add Question (Part 2)
+### Part 2: Add Question
 
-![Add Question](./preview/)
+![Add Question](./preview/quiz-app-p2-add-card.gif)
