@@ -63,16 +63,16 @@ This project helps students understand:
 
 ### Part 1
 
-![Home page](./preview/quiz-app-part-1.gif)
+![Home page](https://github.com/mgczarnievicz/vanilla-quiz-app/tree/main/preview/quiz-app-part-1.gif)
 
 ### Part 2: Home Page
 
-![Home Page](./preview/quiz-app-p2-home.gif)
+![Home Page](https://github.com/mgczarnievicz/vanilla-quiz-app/tree/main//preview/quiz-app-p2-home.gif)
 
 ### Part 2: Bookmark Page
 
-![Bookmark page](./preview/quiz-app-p2-bookmark.gif)
+![Bookmark page](https://github.com/mgczarnievicz/vanilla-quiz-app/tree/main//preview/quiz-app-p2-bookmark.gif)
 
 ### Part 2: Add Question
 
-![Add Question](./preview/quiz-app-p2-add-card.gif)
+![Add Question](https://github.com/mgczarnievicz/vanilla-quiz-app/tree/main//preview/quiz-app-p2-add-card.gif)
