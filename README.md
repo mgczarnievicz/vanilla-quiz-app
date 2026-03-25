@@ -1,8 +1,12 @@
-# CSS Quiz App
+# Vanilla Quiz App
 
 ## Overview
 
-The **CSS Quiz App** is a project from the Web Development Bootcamp at Spiced Academy. This repository showcases **Project 1** and **Project 2**, which focus on building and enhancing a mobile-first web application. Each part is available in its respective branch:
+The **Vanilla Quiz App** is a project from the Web Development Bootcamp at Spiced Academy. This repository showcases **Part 1** and **Part 2** of a mobile-first quiz application, built with plain HTML, CSS, and JavaScript.
+
+This is the **foundational solution** — the implementation that every student is expected to reach. Pages are structured in HTML and enhanced progressively with JavaScript, making it the ideal starting point to understand how the pieces of a web app fit together before moving to more dynamic approaches.
+
+Each part is available in its respective branch:
 
 - **Part 1**: Build the basic layout of a mobile quiz app.
 - **Part 2**: Expand functionality, including saving quiz data to local storage.
@@ -28,7 +32,8 @@ In Part 2, interactivity and additional functionality are added:
 - **Add Page**: A new page where users can create their own questions by submitting:
   - A question
   - An answer
-  - card__hashtags
+  - Hashtags
+
   Newly created question cards are displayed on the Add page.
 
 This phase expands the app to include four pages:
@@ -56,18 +61,18 @@ This project helps students understand:
 
 ## Preview
 
-### Home Page
+### Part 1
 
-![Home page](./preview/)
+![Home page](https://raw.githubusercontent.com/mgczarnievicz/vanilla-quiz-app/main/preview/quiz-app-part-1.gif)
 
-### Bookmark Page
+### Part 2: Home Page
 
-![Bookmark page](./preview/)
+![Home Page](https://raw.githubusercontent.com/mgczarnievicz/vanilla-quiz-app/main/preview/quiz-app-p2-home.gif)
 
-### Profile Page
+### Part 2: Bookmark Page
 
-![Profile Page](./preview/)
+![Bookmark page](https://raw.githubusercontent.com/mgczarnievicz/vanilla-quiz-app/main/preview/quiz-app-p2-bookmark.gif)
 
-### Add Question (Part 2)
+### Part 2: Add Question
 
-![Add Question](./preview/)
+![Add Question](https://raw.githubusercontent.com/mgczarnievicz/vanilla-quiz-app/main/preview/quiz-app-p2-add-card.gif)
