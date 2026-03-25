@@ -63,7 +63,7 @@ This project helps students understand:
 
 ### Part 1
 
-![Home page](https://github.com/mgczarnievicz/vanilla-quiz-app/tree/main/preview/quiz-app-part-1.gif)
+![Home page](https://raw.githubusercontent.com/mgczarnievicz/vanilla-quiz-app/main/preview/quiz-app-part-1.gif)
 
 ### Part 2: Home Page
 
