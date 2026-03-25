@@ -2,7 +2,11 @@
 
 ## Overview
 
-The **CSS Quiz App** is a project from the Web Development Bootcamp at Spiced Academy. This repository showcases **Project 1** and **Project 2**, which focus on building and enhancing a mobile-first web application. Each part is available in its respective branch:
+The **Vanilla Quiz App** is a project from the Web Development Bootcamp at Spiced Academy. This repository showcases **Part 1** and **Part 2** of a mobile-first quiz application, built with plain HTML, CSS, and JavaScript.
+
+This is the **foundational solution** — the implementation that every student is expected to reach. Pages are structured in HTML and enhanced progressively with JavaScript, making it the ideal starting point to understand how the pieces of a web app fit together before moving to more dynamic approaches.
+
+Each part is available in its respective branch:
 
 - **Part 1**: Build the basic layout of a mobile quiz app.
 - **Part 2**: Expand functionality, including saving quiz data to local storage.
@@ -29,6 +33,7 @@ In Part 2, interactivity and additional functionality are added:
   - A question
   - An answer
   - Hashtags
+
   Newly created question cards are displayed on the Add page.
 
 This phase expands the app to include four pages:
